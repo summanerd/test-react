@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initial render 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h2>
+        Test React
+      </h2>
+    </header>
+    <main>
+      <form
+        data-testid="form"
+      >
+        <input
+          data-testid="firstName"
+          name="firstName"
+          type="text"
+          value=""
+        />
+        <input
+          data-testid="email"
+          name="email"
+          type="email"
+          value=""
+        />
+        <button
+          disabled=""
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`invalid email 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h2>
+        Test React
+      </h2>
+    </header>
+    <main>
+      <form
+        data-testid="form"
+      >
+        <input
+          data-testid="firstName"
+          name="firstName"
+          type="text"
+          value="mauricia"
+        />
+        <input
+          data-testid="email"
+          name="email"
+          type="email"
+          value="mauricia@"
+        />
+        <button
+          disabled=""
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`partially completed 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h2>
+        Test React
+      </h2>
+    </header>
+    <main>
+      <form
+        data-testid="form"
+      >
+        <input
+          data-testid="firstName"
+          name="firstName"
+          type="text"
+          value="mauricia"
+        />
+        <input
+          data-testid="email"
+          name="email"
+          type="email"
+          value=""
+        />
+        <button
+          disabled=""
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`submit valid form 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h2>
+        Test React
+      </h2>
+    </header>
+    <main>
+      <form>
+        <input
+          data-testid="firstName"
+          name="firstName"
+          type="text"
+          value="mauricia"
+        />
+        <input
+          data-testid="email"
+          name="email"
+          type="email"
+          value="mauricia@summanerd.com"
+        />
+        <button
+          data-testid="submit"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`valid firstName and email 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h2>
+        Test React
+      </h2>
+    </header>
+    <main>
+      <form
+        data-testid="form"
+      >
+        <input
+          data-testid="firstName"
+          name="firstName"
+          type="text"
+          value="mauricia"
+        />
+        <input
+          data-testid="email"
+          name="email"
+          type="email"
+          value="mauricia@summanerd.com"
+        />
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+  </div>
+</div>
+`;
